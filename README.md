@@ -18,7 +18,7 @@ Este sistema está em desenvolvimento inicial e serve principalmente como uma es
 ## Requisitos
 Para executar este sistema, você precisará de:
 
-- Java Development Kit (JDK)
+- **Java Development Kit (JDK 17)**
 - Java Runtime Environment (JRE)
 - Apache Maven
 - Sistema de Gerenciamento de Banco de Dados (ex.: H2 Database)
