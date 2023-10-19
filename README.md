@@ -1,28 +1,27 @@
-Documentação do Sistema
-Resumo
-Este sistema é uma API para Gerenciamento de Recursos Humanos (RH), que permite o armazenamento, consulta, atualização e exclusão de informações sobre funcionários. O sistema ainda está em desenvolvimento e requer a implementação de funcionalidades adicionais e tratamento de exceções.
+# Documentação - Sistema de Gerenciamento de Recursos Humanos (RH)
 
-Funcionalidades
-As principais funcionalidades deste sistema incluem:
+## Resumo
+Este sistema tem como objetivo fornecer uma API para o gerenciamento de um departamento de Recursos Humanos (RH). Ele oferece funcionalidades básicas para criar, atualizar, recuperar e excluir informações sobre funcionários. Este sistema ainda está em desenvolvimento e não possui todas as funcionalidades planejadas.
 
-Cadastro de Funcionários: Permite o cadastro de funcionários, incluindo informações como nome, CPF, data de nascimento, número de telefone, salário e função.
+## Funcionalidades
+O sistema atual oferece as seguintes funcionalidades:
 
-Consulta de Funcionários: Permite a recuperação de informações sobre funcionários existentes no sistema com base em seu CPF.
+- Listar todos os funcionários cadastrados.
+- Buscar funcionário por CPF.
+- Inserir um novo funcionário.
+- Atualizar os dados de um funcionário.
+- Deletar um funcionário.
 
-Atualização de Funcionários: Permite a atualização das informações de um funcionário com base no seu CPF.
+## Nível
+Este sistema está em desenvolvimento inicial e serve principalmente como uma estrutura básica para operações de gerenciamento de RH. Ele pode ser expandido com mais funcionalidades no futuro.
 
-Exclusão de Funcionários: Permite a exclusão de um funcionário com base no seu CPF.
+## Requisitos
+Para executar este sistema, você precisará de:
 
-Listagem de Funcionários: Permite a listagem de todos os funcionários cadastrados no sistema.
+- Java Development Kit (JDK)
+- Java Runtime Environment (JRE)
+- Apache Maven
+- Sistema de Gerenciamento de Banco de Dados (ex.: H2 Database)
 
-Nível
-O sistema está atualmente em desenvolvimento e se encontra em um nível inicial de funcionalidade. Muitas funcionalidades ainda precisam ser implementadas para torná-lo completo e eficaz.
-
-Requisitos
-Os requisitos técnicos para executar este sistema incluem:
-
-JDK (Java Development Kit) versão 17 ou superior.
-Maven para gerenciamento de dependências.
-Dependências específicas do projeto, conforme especificado no arquivo pom.xml.
-Status
-O sistema está atualmente em desenvolvimento e muitas funcionalidades ainda precisam ser implementadas. Além disso, é necessário realizar o tratamento de exceções para garantir a robustez do sistema.
+## Status
+Este sistema ainda está em desenvolvimento e não possui todas as funcionalidades planejadas. Também carece de tratamento de exceções e melhorias na documentação.
